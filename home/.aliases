@@ -1,0 +1,11 @@
+# python
+alias activate="source ./venv/bin/activate"
+
+alias pip3.8="python3.8 -m pip"
+alias virtualenv3.8="python3.8 -m virtualenv"
+
+# general
+alias restart_network="sudo systemctl restart network-manager"
+alias code="codium"
+alias blender="/home/niclas/.programms/blender/blender"
+alias remove_all_docker="docker rm -f \$(docker ps -a -f status=exited -q)"
